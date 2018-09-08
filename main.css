@@ -1,0 +1,58 @@
+/* Main Styles */
+body {
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+#contenedor {
+    width: 1300px;
+    height: 650px;
+    margin: 100px 100px;
+    position: relative;
+    border-radius: 10px;
+    background: yellow;
+}
+
+.players{
+    background-color: gray;
+    position: absolute;
+    padding: 20px;
+    width: 830px;
+
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+#gnomo {
+    color: blue;
+    background-color: #fefbb6;
+    text-align: left;
+    width: 300px;
+}
+
+#vecina {
+    background-color: greenyellow;
+    text-align: right;
+    float: right;
+    width: 300px;
+}
+
+input {
+    background: white;
+    width: 80px;
+    border:ridge;
+    color: #2c2c2c;
+}
+
+#canvas {
+    /*background-color: #0000a0;*/
+    margin: 0 auto;
+    border: 5px solid #000;
+    border-radius: 15px;
+}
