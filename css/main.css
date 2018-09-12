@@ -9,6 +9,11 @@ body {
     font-family: Roboto;
 }
 
+#canvas{
+    background-color: red;
+    /*margin: 100px auto;*/
+}
+
 #contenedor {
     width: 1300px;
     height: 650px;

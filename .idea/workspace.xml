@@ -1,7 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="719b6c04-987a-46b9-99b2-2314ea112287" name="Default" comment="" />
+    <list default="true" id="719b6c04-987a-46b9-99b2-2314ea112287" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/css/prueba.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gorilaz miz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gorilaz miz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/chancla.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/chancla.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/chancla_.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/chancla_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/cubeta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/cubeta.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/cubeta.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/cubeta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/cubeta.psd" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/cubeta.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/cuplaza.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/cuplaza.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/gnomo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/gnomo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/gnomo.psd" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/gnomo.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/gnomo_ss.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/gnomo_ss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/housewife.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/housewife.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/vecina.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/vecina.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/vecina.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/vecina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/vecina.psd" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/vecina.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/vecina2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/vecina2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/vecinas.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/vecinas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/vegeta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/vegeta.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/characters/versus.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/versus.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/SHASOW (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/SHASOW (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/SHASOW (2).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/SHASOW (2).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/SHASOW (3).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/SHASOW (3).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/SHASOW (4).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/SHASOW (4).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/SHASOW (5).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/SHASOW (5).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/SHASOW (6).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/SHASOW (6).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edifi(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edifi(1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edifi(1)_.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edifi(1)_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edifi(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edifi(2).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edifi(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edifi(3).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edifi(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edifi(4).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edifi(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edifi(5).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edifi(5)_.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edifi(5)_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edifi(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edifi(6).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edificios.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edificios.psd" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edificios2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edificios_0000_Fondo-copia.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios_0000_Fondo-copia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edificios_0001_Fondo-copia.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios_0001_Fondo-copia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edificios_0002_Rectángulo-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios_0002_Rectángulo-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edificios_0004_Capa-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios_0004_Capa-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edificios_0005_Capa-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios_0005_Capa-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edificios_0007_Capa-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios_0007_Capa-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edificios_0008_Fondo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios_0008_Fondo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/ama2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/ama2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/amanecer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/amanecer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/amanecer_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/amanecer_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/download.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/download.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/download2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/download2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/edi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/edi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/edi2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/edi2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/edi22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/edi22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/edi4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/edi4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/edi44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/edi44.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/edificio1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/edificio1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/edificio2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/edificio2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/edificio3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/edificio3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/medio_dia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/medio_dia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/medio_dia_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/medio_dia_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/noche - copia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/noche - copia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/noche.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/noche.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/noche.psd" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/noche.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/nochex.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/nochex.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/nochez.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/nochez.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/nube.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/nube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/nube2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/nube2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/nube3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/nube3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondos/versus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/versus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,36 +87,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="208" column="10" selection-start-line="208" selection-start-column="10" selection-end-line="208" selection-end-column="10" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="n#Background#0" />
-                <element signature="n#Building#0" />
-                <element signature="n#!!block;n#drawBuildings#0" />
-                <element signature="n#!!block;n#make_stage#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="489">
+              <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="235" column="12" selection-start-line="235" selection-start-column="12" selection-end-line="235" selection-end-column="12" />
+              <folding>
+                <element signature="n#Background#0" />
+                <element signature="n#Building#0" />
+                <element signature="n#Gnomo#0" />
+                <element signature="n#!!block;n#make_gnomo#0" />
+                <element signature="n#Neighbor#0" />
+                <element signature="n#!!block;n#make_building#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,49 +117,66 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>up</find>
-      <find>chan</find>
-      <find>but</find>
-      <find>gnomoss</find>
-      <find>constructor</find>
-      <find>make_neighbord</find>
-      <find>entro</find>
-      <find>vecina</find>
-      <find>console</find>
-      <find>chancla</find>
-      <find>draw</find>
-      <find>chancla.draw</find>
-      <find>creacion</find>
-      <find>velocidad</find>
-      <find>radian</find>
-      <find>equis</find>
-      <find>id</find>
-      <find>pos</find>
-      <find>chancla.vy</find>
+      <find>clear</find>
+      <find>coors</find>
       <find>drawfin</find>
+      <find>chancla</find>
+      <find>make_neighbord</find>
+      <find>Neighbor</find>
+      <find>Gnomo</find>
+      <find>coords</find>
+      <find>coord</find>
+      <find>radia</find>
+      <find>chancla.x</find>
+      <find>but</find>
+      <find>inter</find>
+      <find>interva</find>
+      <find>timer</find>
       <find>punto</find>
       <find>sin</find>
-      <find>puntoImpacto</find>
-      <find>Chancla</find>
-      <find>punta|</find>
-      <find>velocidad_vecina</find>
-      <find>bg-</find>
-      <find>aplicarFuerza</find>
       <find>set</find>
-      <find>fuer</find>
+      <find>equis</find>
+      <find>console.log</find>
+      <find>console.log(chan</find>
+      <find>dib</find>
+      <find>chancla.</find>
+      <find>pos</find>
+      <find>velocidad</find>
+      <find>redondeo</find>
+      <find>document</find>
+      <find>calculacoordenadas</find>
+      <find>start</find>
+      <find>colorAleatorio</find>
     </findStrings>
     <replaceStrings>
       <replace>clean</replace>
       <replace>equis_neighbord</replace>
+      <replace>coorx_neighbord</replace>
+      <replace>l</replace>
+      <replace>m</replace>
+      <replace>n</replace>
+      <replace>coordx_gnomo</replace>
+      <replace>coordy_gnomo</replace>
+      <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../../../versiones grillos/yipi/comando_flujo_yipi.js" />
-        <option value="$PROJECT_DIR$/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/js/estilos.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/css/prueba.css" />
+        <option value="$PROJECT_DIR$/css/prueba.html" />
+        <option value="$PROJECT_DIR$/js/prueba_tiro.js" />
+        <option value="$PROJECT_DIR$/../modelo/pruebaz.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -105,11 +190,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-59" />
-    <option name="y" value="-13" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="685" />
+    <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -122,6 +208,16 @@
               <item name="tiende_tu_oponente" type="b2602c69:ProjectViewProjectNode" />
               <item name="tiende_tu_oponente" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tiende_tu_oponente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tiende_tu_oponente" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tiende_tu_oponente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tiende_tu_oponente" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,7 +227,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../2da parte CIC/fds_gob_250" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -167,24 +263,29 @@
       <workItem from="1536348679379" duration="6610000" />
       <workItem from="1536379631473" duration="7836000" />
       <workItem from="1536424525316" duration="430000" />
-      <workItem from="1536425700392" duration="302000" />
+      <workItem from="1536425700392" duration="39128000" />
+      <workItem from="1536595609263" duration="5000" />
+      <workItem from="1536622819924" duration="2037000" />
+      <workItem from="1536675562783" duration="10027000" />
+      <workItem from="1536714465353" duration="1023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84128000" />
+    <option name="totallyTimeSpent" value="136046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16837482" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.11927083" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -198,6 +299,28 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11927083" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -207,24 +330,84 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.js">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6448">
-          <caret line="208" column="10" selection-start-line="208" selection-start-column="10" selection-end-line="208" selection-end-column="10" />
+        <state relative-caret-position="7781">
+          <caret line="251" column="19" selection-start-line="251" selection-start-column="19" selection-end-line="251" selection-end-column="19" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="n#Background#0" />
             <element signature="n#Building#0" />
-            <element signature="n#!!block;n#drawBuildings#0" />
-            <element signature="n#!!block;n#make_stage#0" />
+            <element signature="n#Gnomo#0" />
+            <element signature="n#!!block;n#make_gnomo#0" />
+            <element signature="n#Neighbor#0" />
+            <element signature="n#!!block;n#make_building#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/estilos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7781">
+          <caret line="251" column="19" selection-start-line="251" selection-start-column="19" selection-end-line="251" selection-end-column="19" />
+          <folding>
+            <element signature="n#Background#0" />
+            <element signature="n#Building#0" />
+            <element signature="n#Gnomo#0" />
+            <element signature="n#!!block;n#make_gnomo#0" />
+            <element signature="n#Neighbor#0" />
+            <element signature="n#!!block;n#make_building#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3007">
+          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/estilos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7781">
+          <caret line="251" column="19" selection-start-line="251" selection-start-column="19" selection-end-line="251" selection-end-column="19" />
+          <folding>
+            <element signature="n#Background#0" />
+            <element signature="n#Building#0" />
+            <element signature="n#Gnomo#0" />
+            <element signature="n#!!block;n#make_gnomo#0" />
+            <element signature="n#Neighbor#0" />
+            <element signature="n#!!block;n#make_building#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js" />
     <entry file="file://$PROJECT_DIR$/../../../versiones grillos/yipi/comando_flujo_yipi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1023">
@@ -232,13 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -246,20 +423,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6448">
-          <caret line="208" column="10" selection-start-line="208" selection-start-column="10" selection-end-line="208" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#Background#0" />
-            <element signature="n#Building#0" />
-            <element signature="n#!!block;n#drawBuildings#0" />
-            <element signature="n#!!block;n#make_stage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js" />
     <entry file="file://$PROJECT_DIR$/../../../versiones grillos/yipi/comando_flujo_yipi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1023">
@@ -267,13 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -281,20 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2728">
-          <caret line="193" column="44" lean-forward="true" selection-start-line="193" selection-start-column="44" selection-end-line="193" selection-end-column="44" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#Background#0" />
-            <element signature="n#Building#0" />
-            <element signature="n#!!block;n#drawBuildings#0" />
-            <element signature="n#!!block;n#make_stage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js" />
     <entry file="file://$PROJECT_DIR$/../../../versiones grillos/yipi/comando_flujo_yipi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1023">
@@ -302,13 +447,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2046">
-          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -316,20 +455,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2387">
-          <caret line="182" column="6" lean-forward="true" selection-start-line="182" selection-start-column="6" selection-end-line="182" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#Background#0" />
-            <element signature="n#Building#0" />
-            <element signature="n#!!block;n#drawBuildings#0" />
-            <element signature="n#!!block;n#make_stage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js" />
     <entry file="file://$PROJECT_DIR$/../../../versiones grillos/yipi/comando_flujo_yipi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1023">
@@ -337,13 +463,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2046">
-          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -351,27 +471,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5518">
-          <caret line="178" column="68" selection-start-line="178" selection-start-column="68" selection-end-line="178" selection-end-column="68" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#Background#0" />
-            <element signature="n#Building#0" />
-            <element signature="n#!!block;n#drawBuildings#0" />
-            <element signature="n#!!block;n#make_stage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1891">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js" />
+    <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -379,27 +480,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#Background#0" />
-            <element signature="n#Building#0" />
-            <element signature="n#!!block;n#drawBuildings#0" />
-            <element signature="n#!!block;n#make_stage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js" />
+    <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="961">
@@ -407,16 +489,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3596">
-          <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js" />
+    <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -424,16 +498,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3596">
-          <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js" />
+    <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -441,16 +507,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js" />
+    <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -458,16 +516,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js" />
+    <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -478,31 +528,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/main.js" />
+    <entry file="file://$PROJECT_DIR$/main.css" />
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-904">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/prueba.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
+    <entry file="file://$PROJECT_DIR$/js/estilos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="208" column="10" selection-start-line="208" selection-start-column="10" selection-end-line="208" selection-end-column="10" />
+        <state relative-caret-position="62">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/prueba_tiro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../modelo/pruebaz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="130" column="32" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="235" column="12" selection-start-line="235" selection-start-column="12" selection-end-line="235" selection-end-column="12" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="n#Background#0" />
             <element signature="n#Building#0" />
-            <element signature="n#!!block;n#drawBuildings#0" />
-            <element signature="n#!!block;n#make_stage#0" />
+            <element signature="n#Gnomo#0" />
+            <element signature="n#!!block;n#make_gnomo#0" />
+            <element signature="n#Neighbor#0" />
+            <element signature="n#!!block;n#make_building#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
