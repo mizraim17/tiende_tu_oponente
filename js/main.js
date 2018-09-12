@@ -181,7 +181,7 @@ function make_neighbord(){
 }
 
 function make_building(){
-    var tipo_edi = ['0','2','2','2','2','2'];
+    var tipo_edi = ['0','1','2','3','4','5'];
     for (i = tipo_edi.length; i; i--) {
         j = Math.floor(Math.random() * i);
         k = tipo_edi[i - 1];

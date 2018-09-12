@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="719b6c04-987a-46b9-99b2-2314ea112287" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/prueba.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gorilaz miz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gorilaz miz.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/prueba.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/prueba.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/characters/chancla.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/chancla.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/characters/chancla_.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/chancla_.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/characters/cubeta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/cubeta.jpg" afterDir="false" />
@@ -26,12 +27,15 @@
       <change beforePath="$PROJECT_DIR$/img/characters/vecinas.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/vecinas.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/characters/vegeta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/vegeta.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/characters/versus.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/img/characters/versus.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios.rar" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios.rar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/edificios/SHASOW (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/SHASOW (1).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/edificios/SHASOW (2).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/SHASOW (2).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/edificios/SHASOW (3).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/SHASOW (3).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/edificios/SHASOW (4).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/SHASOW (4).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/edificios/SHASOW (5).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/SHASOW (5).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/edificios/SHASOW (6).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/SHASOW (6).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/_edifi(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/_edifi(1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/_edifi(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/_edifi(3).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/edificios/edifi(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edifi(1).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/edificios/edifi(1)_.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edifi(1)_.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/edificios/edifi(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edifi(2).png" afterDir="false" />
@@ -50,6 +54,8 @@
       <change beforePath="$PROJECT_DIR$/img/edificios/edificios_0005_Capa-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios_0005_Capa-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/edificios/edificios_0007_Capa-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios_0007_Capa-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/edificios/edificios_0008_Fondo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios_0008_Fondo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/edificios_background.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/edificios_background.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/edificios/new.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/edificios/new.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/fondos/ama2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/ama2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/fondos/amanecer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/amanecer.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/fondos/amanecer_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/amanecer_.jpg" afterDir="false" />
@@ -75,8 +81,9 @@
       <change beforePath="$PROJECT_DIR$/img/fondos/nube3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/nube3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/fondos/versus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondos/versus.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/estilos.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/estilos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/prueba_tiro.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/prueba_tiro.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,8 +106,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="235" column="12" selection-start-line="235" selection-start-column="12" selection-end-line="235" selection-end-column="12" />
+            <state relative-caret-position="279">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="n#Background#0" />
                 <element signature="n#Building#0" />
@@ -267,12 +274,12 @@
       <workItem from="1536595609263" duration="5000" />
       <workItem from="1536622819924" duration="2037000" />
       <workItem from="1536675562783" duration="10027000" />
-      <workItem from="1536714465353" duration="1023000" />
+      <workItem from="1536714465353" duration="1648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136046000" />
+    <option name="totallyTimeSpent" value="136671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -574,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="235" column="12" selection-start-line="235" selection-start-column="12" selection-end-line="235" selection-end-column="12" />
+        <state relative-caret-position="279">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="n#Background#0" />
             <element signature="n#Building#0" />
