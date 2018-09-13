@@ -1,14 +1,15 @@
 
 var canvas = document.getElementById("canvas");
-var timer=0;
 var interval=0;
 var d = new Date();
-var time = d.getHours();
+var hora= d.getHours();
+var veces=0;
+
 var day=['./img/fondos/amanecer.jpg','./img/fondos/medio_dia.jpg','./img/fondos/noche.jpg'];
 var tipo_edificios=['./img/edificios/edifi(1).png','./img/edificios/edifi(2).png','./img/edificios/edifi(3).png','./img/edificios/edifi(4).png','./img/edificios/edifi(5).png','./img/edificios/edifi(6).png'];
 var tiempo='',buildings=[];
 const gravedad=9.8;
-var  time=0.09;
+
 
 angle_gnome = document.getElementById( 'angulo_gnomo' );
 velocity_gnomo= document.getElementById( 'velocidad_gnomo' );
@@ -19,7 +20,7 @@ velocity_neighbord= document.getElementById( 'velocidad_vecina' );
 var butDispara=document.getElementById('btn-shoot');
 
 
-//console.log(time,'hora');
+//console.log(hora,'hora');
 
 //clases
 
@@ -32,20 +33,20 @@ class Background {
         this.width= canvas.width;
         this.height= canvas.height;
         this.image= new Image();
-        if(time>=0&&time<=11){
+        if(hora>=0&&hora<=11){
             tiempo=day[0];
-            //  console.log(' mañana');
+              // console.log(' mañanaz',hora);
         }
         else
 
-        if(time>=12&&time<=20){
+        if(hora>=12&&hora<=20){
             tiempo=day[1];
-            //console.log('tarde');
+            // console.log('tarde');
         }
         else
-        if(time>=21&&time<24){
+        if(hora>=21&&hora<24){
             tiempo=day[2];
-            // console.log('noche');
+             // console.log('noche');
         }
 
     }
@@ -59,6 +60,7 @@ class Background {
         img.onload = () => {
             this.ctx.drawImage(img,this.x,this.y,this.width,this.height);
         };
+
         img.src = tiempo;
     }
 }
@@ -140,8 +142,8 @@ class Neighbor {
         this.width= 75;
         this.height= 75;
         this.image= new Image();
-        console.log('equis',this.x);
-        console.log('yes',this.y);
+        // console.log('equis',this.x);
+        // console.log('yes',this.y);
     }
     draw(){
         var img = new Image();
@@ -206,9 +208,9 @@ function make_building(){
         vel_gno=parseInt(velocity_gnomo.value);
         console.log('angulo', an_gno);
 
-        if(interval!==undefined) {
+        for(var z=0;z<15;z++) {
             console.log('emtor if udnefiend',interval);
-            interval = setInterval(aplicarFuerza, 10 / 60);
+            interval = setInterval(aplicarFuerza, 100 / 60);
         }
     };
     function aplicarFuerza(){
@@ -233,36 +235,22 @@ function gameover() {
     function puntoImpacto(angulo,velocidad) {
         console.log('angulo',angulo);
         console.log('velocidad',velocidad);
-        var time=0.1;
-       // tiempo=(h*3600+m*60+s+cs*0.01);
 
-        // console.log('entro a punto de impacto');
-//        var radianes = parseFloat( (angulo* Math.PI )/ 180);
         var radianes = (angulo* Math.PI )/ 180;
         console.log('radianes',radianes);
-        chancla.drawfin(chancla.vx,chancla.vy);
+
+            chancla.vx = (velocidad * Math.cos(radianes))/15 ;
+            chancla.vy = (velocidad * Math.sin(radianes) + ((1 / 2 * gravedad)))/100 ;
+
+            chancla.x += chancla.vx;
+            chancla.y += (chancla.vy);
+
+            chancla.drawfin(chancla.vx, chancla.vy);
+
+            console.log('chancla.vx', chancla.x);
+            console.log('chancla.vy', chancla.y);
 
 
-        chancla.vx= Math.round( ((velocidad *time* (Math.cos( radianes))))) ;
-        chancla.vy=Math.round( ((velocidad *time* (Math.sin( radianes ))) -((.5)*gravedad*(time*time))) );
-
-        time++;
-        console.log('time',time);
-
-        chancla.x += chancla.vx;
-        chancla.y -= (chancla.vy)*-1;
-
-        console.log('chancla.vx',chancla.x);
-        console.log('chancla.vy',chancla.y);
-
-
-        timer++;
-       // console.log('timer',timer);
-        if(timer==5){
-            console.log('entro al ifzzzzzzz');
-            gameover();
-            return;
-        }
 
     }
 
@@ -283,18 +271,18 @@ function make_stage(){
     class Chancla {
         constructor(x,y){
             this.ctx = canvas.getContext("2d");
-            this.x= x+65;
-            this.y= y;
+            this.x= x+40;
+            this.y= y-30;
             this.vx= x+55;
             this.vy= y;
-            this.width= 25;
-            this.height= 25;
+            this.width= 55;
+            this.height= 55;
             this.image= new Image();
-            console.log('equis ch',this.x);
-            console.log('yes ch',this.y);
+            // console.log('equis ch',this.x);
+            // console.log('yes ch',this.y);
         }
         draw(){
-            console.log('emtro al draw chancla' );
+
             var img = new Image();
             img.onload = () => {
                 this.ctx.drawImage(img,this.x,this.y,this.width,this.height);
@@ -303,11 +291,14 @@ function make_stage(){
         }
 
     drawfin(x,y){
-        var img = new Image();
+        var img = new Image(), posfinx,posfiny;
         // console.log('pos inicial','equis',x,'yes',y);
         // console.log('pos sumada','equis',this.x+x,'yes',this.y+y);
-        var posfinx=this.x+x;
-        var posfiny=this.y+y;
+          posfinx=this.x+x;
+          posfiny=this.y+y;
+
+        // chancla.x += chancla.vx;
+        // chancla.y += (chancla.vy)*-1;
         // console.log('posfin y',posfiny);
         // console.log('posfin x',posfinx);
 
@@ -324,12 +315,11 @@ var vecina=new Neighbor(make_neighbord());
 var gnomoss=new Gnomo(make_gnomo());
 var chancla=new Chancla(vecina.x,vecina.y);
 
-console.log('vecina', vecina.x);
 fondo.clean();
 fondo.draw();
 make_stage();
 gnomoss.draw();
 vecina.draw();
 chancla.draw();
-
+chancla.drawfin(353,378);
 
