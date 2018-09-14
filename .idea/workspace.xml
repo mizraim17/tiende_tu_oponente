@@ -97,8 +97,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+            <state relative-caret-position="31">
+              <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -106,16 +106,26 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <element signature="n#Background#0" />
-                <element signature="n#Building#0" />
-                <element signature="n#Gnomo#0" />
-                <element signature="n#!!block;n#make_gnomo#0" />
-                <element signature="n#Neighbor#0" />
-                <element signature="n#!!block;n#make_building#0" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="226" column="9" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prueba_tiro.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/prueba_tiro.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -124,36 +134,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>clear</find>
-      <find>coors</find>
-      <find>drawfin</find>
-      <find>chancla</find>
-      <find>make_neighbord</find>
-      <find>Neighbor</find>
-      <find>Gnomo</find>
-      <find>coords</find>
-      <find>coord</find>
-      <find>radia</find>
-      <find>chancla.x</find>
-      <find>but</find>
-      <find>inter</find>
-      <find>interva</find>
-      <find>timer</find>
-      <find>punto</find>
-      <find>sin</find>
-      <find>set</find>
+      <find>Chancla</find>
+      <find>close</find>
+      <find>tri</find>
+      <find>edifi</find>
+      <find>draw</find>
+      <find>make_stage</find>
+      <find>gnomoss</find>
+      <find>make_gnomo</find>
       <find>equis</find>
-      <find>console.log</find>
-      <find>console.log(chan</find>
-      <find>dib</find>
-      <find>chancla.</find>
-      <find>pos</find>
-      <find>velocidad</find>
-      <find>redondeo</find>
-      <find>document</find>
-      <find>calculacoordenadas</find>
-      <find>start</find>
-      <find>colorAleatorio</find>
+      <find>vec</find>
+      <find>supus</find>
+      <find>make_building</find>
+      <find>vecina</find>
+      <find>Neighbor</find>
+      <find>aplicarFuerza</find>
+      <find>gameover</find>
+      <find>canvas</find>
+      <find>backgro</find>
+      <find>game</find>
+      <find>gameo</find>
+      <find>changeturn</find>
+      <find>chang</find>
+      <find>back</find>
+      <find>fondo.ct</find>
+      <find>clean</find>
+      <find>inter</find>
+      <find>interval</find>
+      <find>set</find>
+      <find>puntoImpacto</find>
+      <find>chancla</find>
     </findStrings>
     <replaceStrings>
       <replace>clean</replace>
@@ -176,12 +186,13 @@
         <option value="$PROJECT_DIR$/../../../versiones grillos/yipi/comando_flujo_yipi.js" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/main.css" />
-        <option value="$PROJECT_DIR$/js/estilos.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/prueba.css" />
         <option value="$PROJECT_DIR$/css/prueba.html" />
-        <option value="$PROJECT_DIR$/js/prueba_tiro.js" />
         <option value="$PROJECT_DIR$/../modelo/pruebaz.html" />
+        <option value="$PROJECT_DIR$/index_prueba.html" />
+        <option value="$PROJECT_DIR$/js/prueba_tiro.js" />
+        <option value="$PROJECT_DIR$/js/estilos.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
       </list>
@@ -208,6 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,18 +235,28 @@
             <path>
               <item name="tiende_tu_oponente" type="b2602c69:ProjectViewProjectNode" />
               <item name="tiende_tu_oponente" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tiende_tu_oponente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tiende_tu_oponente" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="fondos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tiende_tu_oponente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tiende_tu_oponente" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../2da parte CIC/fds_gob_250" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -274,27 +296,31 @@
       <workItem from="1536595609263" duration="5000" />
       <workItem from="1536622819924" duration="2037000" />
       <workItem from="1536675562783" duration="10027000" />
-      <workItem from="1536714465353" duration="1648000" />
+      <workItem from="1536714465353" duration="2492000" />
+      <workItem from="1536659635243" duration="5491000" />
+      <workItem from="1536807232822" duration="11441000" />
+      <workItem from="1536849263216" duration="14187000" />
+      <workItem from="1536880088245" duration="6647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136671000" />
+    <option name="totallyTimeSpent" value="175281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.11927083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11859444" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -306,28 +332,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11927083" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -341,21 +345,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7781">
-          <caret line="251" column="19" selection-start-line="251" selection-start-column="19" selection-end-line="251" selection-end-column="19" />
-          <folding>
-            <element signature="n#Background#0" />
-            <element signature="n#Building#0" />
-            <element signature="n#Gnomo#0" />
-            <element signature="n#!!block;n#make_gnomo#0" />
-            <element signature="n#Neighbor#0" />
-            <element signature="n#!!block;n#make_building#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2139">
@@ -374,14 +363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7781">
           <caret line="251" column="19" selection-start-line="251" selection-start-column="19" selection-end-line="251" selection-end-column="19" />
-          <folding>
-            <element signature="n#Background#0" />
-            <element signature="n#Building#0" />
-            <element signature="n#Gnomo#0" />
-            <element signature="n#!!block;n#make_gnomo#0" />
-            <element signature="n#Neighbor#0" />
-            <element signature="n#!!block;n#make_building#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -403,14 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7781">
           <caret line="251" column="19" selection-start-line="251" selection-start-column="19" selection-end-line="251" selection-end-column="19" />
-          <folding>
-            <element signature="n#Background#0" />
-            <element signature="n#Building#0" />
-            <element signature="n#Gnomo#0" />
-            <element signature="n#!!block;n#make_gnomo#0" />
-            <element signature="n#Neighbor#0" />
-            <element signature="n#!!block;n#make_building#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,31 +510,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js" />
     <entry file="file://$PROJECT_DIR$/main.css" />
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-904">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/prueba.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/estilos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/prueba_tiro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -572,25 +524,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index_prueba.html" />
+    <entry file="file://$PROJECT_DIR$/js/prueba_tiro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/estilos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+        <state relative-caret-position="31">
+          <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="n#Background#0" />
-            <element signature="n#Building#0" />
-            <element signature="n#Gnomo#0" />
-            <element signature="n#!!block;n#make_gnomo#0" />
-            <element signature="n#Neighbor#0" />
-            <element signature="n#!!block;n#make_building#0" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="226" column="9" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
         </state>
       </provider>
     </entry>
