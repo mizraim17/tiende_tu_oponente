@@ -30,6 +30,7 @@ class Background {
         this.width= canvas.width;
         this.height= canvas.height;
         this.image= new Image();
+       // this.image.src='.img/fondos/amanecer.jpg';
 
         if(time>=0&&time<=11){
             tiempo=day[0];
@@ -46,7 +47,7 @@ class Background {
             tiempo=day[2];
             // console.log('noche');
         }
-        this.image.src=tiempo;
+
     }
 
     clean(){
@@ -54,10 +55,11 @@ class Background {
     }
 
     draw(){
-
-
-         this.image.onload = () => {
-            this.ctx.drawImage(this.image,this.x,this.y,this.width,this.height);
+        this.image.src=tiempo;
+        console.log('thius',this.image);
+        console.log('thius',this);
+        this.image.onload = () => {
+        this.ctx.drawImage(this.image,this.x,this.y,this.width,this.height);
          };
 
     }
@@ -155,7 +157,9 @@ class Neighbor {
 }
 
 function colisiones () {
+        if (chancla.x>gnomoss.x){
 
+        }
 
 }
 
@@ -224,7 +228,7 @@ function make_building(){
     };
     function aplicarFuerza(){
          ctx = canvas.getContext("2d");
-         ctx.clearRect(0, 0, canvas.width, canvas.height);
+        // ctx.clearRect(0, 0, canvas.width, canvas.height);
 
         fondo.draw();
         drawBuildings();
@@ -237,9 +241,9 @@ function make_building(){
         // console.log('entro a la fuerzaaaaaaaaz');
     }
 function changeturn() {
-    console.log('entro a cambiar turno');
+    console.log('entro a cambiar turno', fondo);
 
-    fondo.ctx= '30px Avenir';
+    fondo.ctx.font= '30px Avenir';
     fondo.ctx.fillText('Ya es otro turno',210, 180);
     clearInterval(interval);
 
