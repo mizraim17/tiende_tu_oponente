@@ -7,6 +7,7 @@ var day=['./img/fondos/amanecer.jpg','./img/fondos/medio_dia.jpg','./img/fondos/
 var tipo_edificios=['./img/edificios/edifi (8).png','./img/edificios/edifi (2).png','./img/edificios/edifi (3).png','./img/edificios/edifi (4).png','./img/edificios/edifi (5).png','./img/edificios/edifi (6).png'];
 var tiempo='',buildings=[];
 const gravedad=9.8;
+var x=false;
 
 var completedMusic = new Audio();
 completedMusic.src = "./music/dbz.mp3";
@@ -31,13 +32,12 @@ class Background {
         this.height= canvas.height;
         this.image= new Image();
        // this.image.src='.img/fondos/amanecer.jpg';
-        console.log('time',time);
+       //  console.log('time',time);
         if(time>=0&&time<=11){
             tiempo=day[0];
               console.log(' mañana');
         }
         else
-
         if(time>=12&&time<=20){
             tiempo=day[1];
             //console.log('tarde');
@@ -47,7 +47,6 @@ class Background {
             tiempo=day[2];
             // console.log('noche');
         }
-
     }
 
     clean(){
@@ -56,8 +55,7 @@ class Background {
 
     draw(){
         this.image.src=tiempo;
-        console.log('thius',this.image);
-        console.log('thius',this);
+
         this.image.onload = () => {
         this.ctx.drawImage(this.image,this.x,this.y,this.width,this.height);
          };
@@ -92,7 +90,7 @@ class Gnomo {
         this.ctx = canvas.getContext("2d");
         this.x= x[0];
         this.y= x[1];
-        this.width= 112;
+        this.width= 64;
         this.height= 112;
         this.image= new Image();
     }
@@ -145,7 +143,7 @@ class Neighbor {
         // console.log('yes',this.y);
     }
     draw(){
-        console.log('entro al draw vecina');
+        // console.log('entro al draw vecina');
         var img = new Image();
         img.onload = () => {
             this.ctx.drawImage(img,this.x,this.y,this.width,this.height);
@@ -157,8 +155,22 @@ class Neighbor {
 }
 
 function colisiones () {
-        if (chancla.x>gnomoss.x){
+    console.log('chancla y',Math.trunc (chancla.y));
+    console.log('gnomoss y',gnomoss.y+gnomoss.height);
 
+    console.log('chancla x',Math.trunc (chancla.x));
+    console.log('gnomoss x',gnomoss.x+gnomoss.width);
+        if (
+            gnomoss.x < chancla.x + chancla.width && gnomoss.x + gnomoss.width > chancla.x &&
+            gnomoss.y< chancla.y + chancla.height && gnomoss.y + gnomoss.height > chancla.y
+        )
+        {
+        console.log('choco');
+            x=true;
+            clearInterval(interval);
+            fondo.ctx.font= '50px Avenir';
+            fondo.ctx.fillText('Gano Vecina',210, 180);
+            return x;
         }
 
 }
@@ -210,7 +222,7 @@ function make_building(){
     var edificio5=new Building(tipo_edi[5],1010);
 
     buildings.push(edificio0,edificio1,edificio2,edificio3,edificio4,edificio5);
-    console.log('entro a generar edificios al azar' );
+    // console.log('entro a generar edificios al azar' );
 }
 
 // console.log('tipo_edi',tipo_edi);
@@ -219,7 +231,7 @@ function make_building(){
         vel_gno=parseInt(velocity_gnomo.value);
         an_vec=parseInt(angle_neighbord.value);
         vel_vec=parseInt(velocity_neighbord.value);
-        console.log('angulo', an_gno);
+     //   console.log('angulo', an_gno);
 
         if(interval!==undefined) {
             console.log('emtor if udnefiend',interval);
@@ -227,14 +239,28 @@ function make_building(){
         }
     };
     function aplicarFuerza(){
+
          ctx = canvas.getContext("2d");
         // ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-        fondo.draw();
-        drawBuildings();
-        vecina.draw();
-        gnomoss.draw();
-        puntoImpacto(an_vec,vel_vec);
+        if(x===false){
+            fondo.draw();
+            drawBuildings();
+            vecina.draw();
+            gnomoss.draw();
+            puntoImpacto(an_vec,vel_vec);
+        }
+        else{
+            console.log('else feooooo');
+            fondo.draw();
+            drawBuildings();
+            vecina.draw();
+        }
+        // fondo.draw();
+        // drawBuildings();
+        // vecina.draw();
+        // gnomoss.draw();
+        // puntoImpacto(an_vec,vel_vec);
         //chancla.draw();
         // console.log('chancla x', chancla.x);
         // console.log('chancla y', chancla.y);
@@ -249,22 +275,23 @@ function changeturn() {
 
 }
     function puntoImpacto(angulo,velocidad) {
-    console.log('angulo',angulo);
-    console.log('velocidad',velocidad);
+    // console.log('angulo',angulo);
+    // console.log('velocidad',velocidad);
 
     var radianes = (angulo* Math.PI )/ 180;
-    console.log('radianes',radianes);
+   // console.log('radianes',radianes);
 
-    chancla.vx = (velocidad * Math.cos(radianes))/15 ;
-    chancla.vy = (velocidad * Math.sin(radianes) + ((1 / 2 * gravedad)))/100 ;
+    chancla.vx =  (velocidad * Math.cos(radianes))/15 ;
+    chancla.vy =   (velocidad * Math.sin(radianes) + ((1 / 2 * gravedad)))/100  ;
 
     chancla.x += chancla.vx;
     chancla.y += (chancla.vy);
 
     chancla.drawfin(chancla.vx, chancla.vy);
 
-    console.log('chancla.vx', chancla.x);
-    console.log('chancla.vy', chancla.y);
+    // console.log('chancla.vx', chancla.x);
+    // console.log('chancla.vy', chancla.y);
+        colisiones();
 
     if(chancla.x>fondo.width||chancla.y>fondo.height){
 
@@ -288,7 +315,7 @@ function drawBuildings() {
 }
 
 function make_stage(){
-     console.log('entro a make supuestamente el 1');
+     // console.log('entro a make supuestamente el 1');
     make_building();
     drawBuildings();
 
@@ -306,7 +333,7 @@ function make_stage(){
             this.image= new Image();
         }
         draw(){
-            console.log('emtro al draw chancla' );
+            // console.log('emtro al draw chancla' );
             var img = new Image();
             img.onload = () => {
                 this.ctx.drawImage(img,this.x,this.y,this.width,this.height);
@@ -337,12 +364,13 @@ var gnomoss=new Gnomo(make_gnomo());
 var chancla=new Chancla(vecina.x,vecina.y);
 
 // console.log('vecina', vecina.x);
-completedMusic.play();
+
 fondo.clean();
 fondo.draw();
 make_stage();
 gnomoss.draw();
 vecina.draw();
 chancla.draw();
+completedMusic.play();
 
 
