@@ -7,7 +7,7 @@ var day=['./img/fondos/amanecer.jpg','./img/fondos/medio_dia.jpg','./img/fondos/
 var tipo_edificios=['./img/edificios/edifi (8).png','./img/edificios/edifi (2).png','./img/edificios/edifi (3).png','./img/edificios/edifi (4).png','./img/edificios/edifi (5).png','./img/edificios/edifi (6).png'];
 var tiempo='',buildings=[];
 const gravedad=9.8;
-var  time=0.09;
+
 var completedMusic = new Audio();
 completedMusic.src = "./music/dbz.mp3";
 
@@ -31,10 +31,10 @@ class Background {
         this.height= canvas.height;
         this.image= new Image();
        // this.image.src='.img/fondos/amanecer.jpg';
-
+        console.log('time',time);
         if(time>=0&&time<=11){
             tiempo=day[0];
-            //  console.log(' mañana');
+              console.log(' mañana');
         }
         else
 
@@ -243,9 +243,9 @@ function make_building(){
 function changeturn() {
     console.log('entro a cambiar turno', fondo);
 
-    fondo.ctx.font= '30px Avenir';
-    fondo.ctx.fillText('Ya es otro turno',210, 180);
     clearInterval(interval);
+    fondo.ctx.font= '30px Avenir';
+    fondo.ctx.fillText('Le toca a tu oponente',210, 180);
 
 }
     function puntoImpacto(angulo,velocidad) {
