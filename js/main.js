@@ -11,7 +11,7 @@ const gravedad=9.8;
 var x=false;
 
 var completedMusic = new Audio();
-completedMusic.src = "./music/obligame_perro.mp3";
+completedMusic.src = "./music/dbz.mp3";
 
 var sexplosion = new Audio();
 sexplosion.src = "./music/explosion.mp3";
