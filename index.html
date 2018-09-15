@@ -11,87 +11,71 @@
 </head>
 <body>
 
-<div class="modal fade" id="myModal" data-toggle="modal"  tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"  >
-<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-<div class="modal-content">
-<div class="modal-header">
-<h5 class="modal-title titulo" id="exampleModalCenterTitle">Tiende a tu Oponente</h5>
-<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-<span aria-hidden="true">&times;</span>
-</button>
-</div>
-<div class="modal-body">
-<div class="row">
+<!--<div class="modal fade" id="myModal" data-toggle="modal"  tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"  >-->
+<!--<div class="modal-dialog modal-dialog-centered modal-lg" role="document">-->
+<!--<div class="modal-content">-->
+<!--<div class="modal-header">-->
+<!--<h5 class="modal-title titulo" id="exampleModalCenterTitle">Tiende a tu Oponente</h5>-->
+<!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+<!--<span aria-hidden="true">&times;</span>-->
+<!--</button>-->
+<!--</div>-->
+<!--<div class="modal-body">-->
+<!--<div class="row">-->
 
-</div>
-    <img src="img/characters/vecina.png"  width="300" height="400">
-    <img src="img/characters/gnomo_vs.png"  width="400" height="400">
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-success" data-dismiss="modal">Iniciar</button>
+<!--</div>-->
+    <!--<img src="img/characters/vecina_vs.png"  width="300" height="400">-->
+    <!--<img src="img/characters/gnomo_vs.png"  width="400" height="400">-->
+<!--</div>-->
+<!--<div class="modal-footer">-->
+<!--<button type="button" class="btn btn-success" data-dismiss="modal">Iniciar</button>-->
 
-</div>
-</div>
-</div>
-</div>
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 
 <div class="container-fluid ">
     
 	<div class="row">
-	<canvas id="canvas" width="1300" height="650"></canvas>
-        <div class=" col-lg-5 col-xl-5 col-md-5 col-sm-5 col-5   p-1   ">
-            <div id="gnomo" class=" ">
+	    <canvas id="canvas" width="1300" height="650"></canvas>
+        <div class=" col-lg-5 col-xl-5 col-md-5 col-sm-5 col-5   p-1    ">
+            <div id="vecina" class="panel">
                 <p class="oponentes text-center">Vecina </p>
                 <br>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" >Ángulo</span>
+                <div class="input-group ">
+                    <div class="input-group-prepend ml-4 pl-5">
+                        <span class="input-group-text " style="font-weight: bold" >Ángulo</span>
                     </div>
-                    <input type="text" id="angulo_vecina" class="angle" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <label class="input-group-text" for="velocidad_vecina">Velocidad</label>
-                        </div>
-                        <div class="slidecontainer" >
+                    <input type="text" id="angulo_vecina" class="angle" value="1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                         <div class="slidecontainer mx-auto" >
                             <input type="range" min="40" max="50" value="45" class="slider" id="velocidad_vecina">
-                            <p>Velocidad: <span id="demo2"></span></p>
+                            <p class="text-center text-white" >Velocidad: <span id="demo2"></span></p>
                         </div>
-                    </div>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
                 </div>
             </div>
         </div>
 
-        <div class=" col-lg-2 col-xl-2 col-md-2 col-sm-2 col-2   p-1    ">
-            <button id="btn-shoot" class="btn btn-danger"> Disparaz</button>
+        <div class=" col-lg-1 col-xl-1 col-md-12 col-sm-12 col-12   p-1    ">
+            <button id="btn-shoot" class="btn btn-danger"> Dispara</button>
+        </div>
+        <div class=" col-lg-1 col-xl-1 col-md-12 col-sm-12 col-12   p-1    ">
+            <button id="btn-restart" class="btn btn-success"> Reinicia</button>
         </div>
 
-        <div class=" col-lg-5 col-xl-5 col-md-5 col-sm-5 col-5   p-1   ">
-            <div id="vecina" class=" ">
-                <p class=" oponentes text-center">Gnomo SS</p>
-                <br>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" >Ángulo</span>
-                    </div>
-                    <input type="text" id="angulo_gnomo" class="angle" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <label class="input-group-text" for="velocidad_gnomo">Velocidad</label>
-                        </div>
-                        <div class="slidecontainer" >
-                            <input type="range" min="40" max="50" value="70" class="slider" id="velocidad_gnomo">
-                            <p>Velocidad: <span id="demo"></span></p>
-                        </div>
-                    </div>
-
+        <div class=" col-lg-5 col-xl-5 col-md-5 col-sm-5 col-5   p-1    " >
+            <div id="gnomo" style="display: none" class="panel">
+            <p class=" oponentes text-center">Gnomo SS</p>
+            <br>
+            <div class="input-group ">
+                <div class="input-group-prepend ml-4 pl-5">
+                    <span class="input-group-text"  style="font-weight: bold" >Ángulo</span>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                <input type="text" id="angulo_gnomo" class="angle" value="1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+
+                <div class="slidecontainer mx-auto" >
+                    <input type="range" min="40" max="50" value="70" class="slider" id="velocidad_gnomo">
+                    <p class="text-center text-white" >Velocidad: <span id="demo"></span></p>
                 </div>
             </div>
         </div>
