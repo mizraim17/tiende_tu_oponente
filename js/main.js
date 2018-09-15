@@ -1,4 +1,3 @@
-// version 4am
 var canvas = document.getElementById("canvas");
 var turno=0;
 var interval=0;
@@ -12,6 +11,9 @@ var x=false;
 
 var completedMusic = new Audio();
 completedMusic.src = "./music/dbz.mp3";
+
+var win = new Audio();
+win.src = "./music/youwin.mp3";
 
 var sexplosion = new Audio();
 sexplosion.src = "./music/explosion.mp3";
@@ -252,10 +254,13 @@ function colisiones () {
 
 function ganoV() {
     ganoVecina.draw();
+    win.play();
 }
 
 function ganoG() {
     ganoGnomo.draw();
+    win.play();
+
 }
 
 function colisionesV () {
