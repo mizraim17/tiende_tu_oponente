@@ -1,3 +1,4 @@
+// version 4am
 var canvas = document.getElementById("canvas");
 var turno=0;
 var interval=0;
@@ -10,14 +11,14 @@ const gravedad=9.8;
 var x=false;
 
 var completedMusic = new Audio();
-completedMusic.src = "./music/dbz.mp3";
+completedMusic.src = "./music/obligame_perro.mp3";
 
 var sexplosion = new Audio();
 sexplosion.src = "./music/explosion.mp3";
 
 
 var kame = new Audio();
-kame.src = "./music/kame.mp3";
+kame.src = "./music/kame2.mp3";
 
 var ouch = new Audio();
 ouch.src = "./music/ouch.mp3";
@@ -186,6 +187,47 @@ class Kaboom {
 }
 
 
+class WinNeigbord {
+    constructor(){
+        this.ctx = canvas.getContext("2d");
+        this.x=100;
+        this.y= 150;
+        this.width= 438;
+        this.height= 548;
+        this.image= new Image();
+    }
+    draw( ){
+
+
+        var img = new Image();
+        img.onload = () => {
+            this.ctx.drawImage(img,this.x,this.y,this.width,this.height);
+        };
+        img.src = './img/fondos/win_vecina.png'
+
+    }
+}
+class WinGnomo {
+    constructor(){
+        this.ctx = canvas.getContext("2d");
+        this.x=500;
+        this.y= 100;
+        this.width= 438;
+        this.height= 548;
+        this.image= new Image();
+    }
+    draw( ){
+
+
+        var img = new Image();
+        img.onload = () => {
+            this.ctx.drawImage(img,this.x,this.y,this.width,this.height);
+        };
+        img.src = './img/fondos/win_gnomo.png'
+
+    }
+}
+
 function colisiones () {
     // console.log('chancla y',Math.trunc (chancla.y));
     // console.log('gnomoss y',gnomoss.y+gnomoss.height);
@@ -199,19 +241,21 @@ function colisiones () {
     console.log('choco');
         x=true;
         clearInterval(interval);
-        fondo.ctx.font= '50px Avenir';
-        fondo.ctx.fillText('Gano Vecina',210, 180);
+
         //console.log("gonomo x",gnomoss.x,"gonomo y",gnomoss.y,)
         ouch.play();
         sexplosion.play();
         explosion.draw((gnomoss.x-300 ),(gnomoss.y-150 ));
-
-        return x;
+       ganoV();
     }
+}
 
+function ganoV() {
+    ganoVecina.draw();
+}
 
-
-
+function ganoG() {
+    ganoGnomo.draw();
 }
 
 function colisionesV () {
@@ -232,13 +276,9 @@ function colisionesV () {
         ouch.play();
         sexplosion.play();
         explosion.draw((vecina.x-300 ),(vecina.y-150 ));
-
+        ganoG();
         return x;
     }
-
-
-
-
 }
 
 
@@ -523,6 +563,8 @@ var gnomoss=new Gnomo(make_gnomo());
 var chancla=new Chancla(vecina.x,vecina.y);
 var cubeta=new Cube(gnomoss.x,gnomoss.y);
 var explosion=new Kaboom();
+var ganoVecina=new WinNeigbord();
+var ganoGnomo=new WinGnomo();
 
 // console.log('vecina', vecina.x);
 
