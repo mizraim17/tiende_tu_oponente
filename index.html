@@ -11,32 +11,34 @@
 </head>
 <body>
 
-<!--<div class="modal fade" id="myModal" data-toggle="modal"  tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"  >-->
-<!--<div class="modal-dialog modal-dialog-centered modal-lg" role="document">-->
-<!--<div class="modal-content">-->
-<!--<div class="modal-header">-->
-<!--<h5 class="modal-title titulo" id="exampleModalCenterTitle">Tiende a tu Oponente</h5>-->
-<!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
-<!--<span aria-hidden="true">&times;</span>-->
-<!--</button>-->
-<!--</div>-->
-<!--<div class="modal-body">-->
-<!--<div class="row">-->
+<div class="modal fade" id="myModal" data-toggle="modal"  tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"  >
+<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title titulo" id="exampleModalCenterTitle">Tiende a tu Oponente</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<div class="row">
 
-<!--</div>-->
-    <!--<img src="img/characters/vecina.png"  width="300" height="400">-->
-    <!--<img src="img/characters/gnomo_vs.png"  width="400" height="400">-->
-<!--</div>-->
-<!--<div class="modal-footer">-->
-<!--<button type="button" class="btn btn-success" data-dismiss="modal">Iniciar</button>-->
+</div>
+    <img src="img/characters/vecina.png"  width="300" height="400">
+    <img src="img/characters/gnomo_vs.png"  width="400" height="400">
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-success" data-dismiss="modal">Iniciar</button>
 
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
+</div>
+</div>
+</div>
+</div>
 
 <div class="container-fluid ">
-    <div class="row">
+    
+	<div class="row">
+	<canvas id="canvas" width="1300" height="650"></canvas>
         <div class=" col-lg-5 col-xl-5 col-md-5 col-sm-5 col-5   p-1   ">
             <div id="gnomo" class=" ">
                 <p class="oponentes text-center">Vecina </p>
@@ -52,7 +54,7 @@
                             <label class="input-group-text" for="velocidad_vecina">Velocidad</label>
                         </div>
                         <div class="slidecontainer" >
-                            <input type="range" min="10" max="40" value="15" class="slider" id="velocidad_vecina">
+                            <input type="range" min="40" max="50" value="45" class="slider" id="velocidad_vecina">
                             <p>Velocidad: <span id="demo2"></span></p>
                         </div>
                     </div>
@@ -82,7 +84,7 @@
                             <label class="input-group-text" for="velocidad_gnomo">Velocidad</label>
                         </div>
                         <div class="slidecontainer" >
-                            <input type="range" min="10" max="50" value="20" class="slider" id="velocidad_gnomo">
+                            <input type="range" min="40" max="50" value="70" class="slider" id="velocidad_gnomo">
                             <p>Velocidad: <span id="demo"></span></p>
                         </div>
                     </div>
@@ -94,7 +96,7 @@
             </div>
         </div>
     </div>
-    <canvas id="canvas" width="1300" height="650"></canvas>
+    
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

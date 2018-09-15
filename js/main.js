@@ -12,6 +12,16 @@ var x=false;
 var completedMusic = new Audio();
 completedMusic.src = "./music/dbz.mp3";
 
+var sexplosion = new Audio();
+sexplosion.src = "./music/explosion.mp3";
+
+
+var kame = new Audio();
+kame.src = "./music/kame.mp3";
+
+var ouch = new Audio();
+ouch.src = "./music/ouch.mp3";
+
 angle_gnome = document.getElementById( 'angulo_gnomo' );
 velocity_gnomo= document.getElementById( 'velocidad_gnomo' );
 
@@ -154,6 +164,29 @@ class Neighbor {
 
 }
 
+
+class Kaboom {
+     constructor(){
+        this.ctx = canvas.getContext("2d");
+        this.x=0;
+        this.y= 0;
+        this.width= 700;
+        this.height= 650;
+        this.image= new Image();
+    }
+    draw(x,y){
+		console.log("entro al draw de explosion",'valor x=',x,'valor de y=',y);
+		
+        var img = new Image();
+        img.onload = () => {
+            this.ctx.drawImage(img,x,y,this.width,this.height);
+        };
+        img.src = './img/characters/explosion.png'
+
+    }
+}
+
+
 function colisiones () {
     console.log('chancla y',Math.trunc (chancla.y));
     console.log('gnomoss y',gnomoss.y+gnomoss.height);
@@ -170,6 +203,11 @@ function colisiones () {
             clearInterval(interval);
             fondo.ctx.font= '50px Avenir';
             fondo.ctx.fillText('Gano Vecina',210, 180);
+			console.log("gonomo x",gnomoss.x,"gonomo y",gnomoss.y,)
+			ouch.play();
+			sexplosion.play();
+			explosion.draw((gnomoss.x-300 ),(gnomoss.y-150 ));
+			
             return x;
         }
 
@@ -227,10 +265,12 @@ function make_building(){
 
 // console.log('tipo_edi',tipo_edi);
     butDispara.onclick = function() {
+		kame.play();
         an_gno=parseInt(angle_gnome.value);
         vel_gno=parseInt(velocity_gnomo.value);
         an_vec=parseInt(angle_neighbord.value);
         vel_vec=parseInt(velocity_neighbord.value);
+		
      //   console.log('angulo', an_gno);
 
         if(interval!==undefined) {
@@ -282,10 +322,10 @@ function changeturn() {
    // console.log('radianes',radianes);
 
     chancla.vx =  (velocidad * Math.cos(radianes))/15 ;
-    chancla.vy =   (velocidad * Math.sin(radianes) + ((1 / 2 * gravedad)))/100  ;
+    chancla.vy =   ((velocidad * Math.sin(radianes) - ((1 / 2 * gravedad)))/100)  ;
 
     chancla.x += chancla.vx;
-    chancla.y += (chancla.vy);
+    chancla.y -= (chancla.vy);
 
     chancla.drawfin(chancla.vx, chancla.vy);
 
@@ -362,8 +402,10 @@ var fondo=new Background();
 var vecina=new Neighbor(make_neighbord());
 var gnomoss=new Gnomo(make_gnomo());
 var chancla=new Chancla(vecina.x,vecina.y);
+var explosion=new Kaboom();
 
 // console.log('vecina', vecina.x);
+
 
 fondo.clean();
 fondo.draw();
