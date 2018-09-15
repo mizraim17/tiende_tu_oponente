@@ -1,5 +1,5 @@
 
-var angulo=111,velocidad=111, vy,vx,x=0,y=0,gravedad=9.81;
+var angulo=0,velocidad=0, vy=0,vx=0,x=0,y=0;
 
     function trayectoria(angulo,velocidad) {
 
@@ -9,12 +9,10 @@ var angulo=111,velocidad=111, vy,vx,x=0,y=0,gravedad=9.81;
 
 
         for(tiempo=1;tiempo<=10;tiempo++){
-            vx = (velocidad * Math.cos(radianes)) ;
-            vy = (velocidad * Math.sin(radianes) + ((1 / 2 * gravedad))) ;
-
-            console.log(' x',  x);
-            console.log(' y',  y);
-
+            vx = velocidad * Math.cos(radianes) * tiempo;
+            vy = (velocidad * Math.sin(radianes) + ((1 / 2 * gravedad) * (tiempo * tiempo))) ;
+            console.log(' vx',  x);
+            console.log(' vy',  y);
             x +=  vx;
             y +=  vy;
 
@@ -29,4 +27,4 @@ var angulo=111,velocidad=111, vy,vx,x=0,y=0,gravedad=9.81;
     }
 
 
-    trayectoria(45,100);
+    trayectoria(45,10);
