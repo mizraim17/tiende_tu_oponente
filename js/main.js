@@ -1,10 +1,10 @@
 var canvas = document.getElementById("canvas");
-var timer=0;
+var turno=0;
 var interval=0;
 var d = new Date();
 var time = d.getHours();
-var day=['./img/fondos/amanecer.jpg','./img/fondos/medio_dia.jpg','./img/fondos/noche.jpg'];
-var tipo_edificios=['./img/edificios/edifi (8).png','./img/edificios/edifi (2).png','./img/edificios/edifi (3).png','./img/edificios/edifi (4).png','./img/edificios/edifi (5).png','./img/edificios/edifi (6).png'];
+var day=['./img/fondos/amanecer.png','./img/fondos/atardecer.png','./img/fondos/noche.jpg'];
+var tipo_edificios=['./img/edificios/edifi (1).png','./img/edificios/edifi (2).png','./img/edificios/edifi (3).png','./img/edificios/edifi (4).png','./img/edificios/edifi (5).png','./img/edificios/edifi (6).png'];
 var tiempo='',buildings=[];
 const gravedad=9.8;
 var x=false;
@@ -29,7 +29,7 @@ angle_neighbord = document.getElementById( 'angulo_vecina' );
 velocity_neighbord= document.getElementById( 'velocidad_vecina' );
 
 var butDispara=document.getElementById('btn-shoot');
-
+var butReinicia=document.getElementById('btn-restart');
 
 //clases
 
@@ -137,15 +137,14 @@ function make_gnomo(){
     coordG[1]=parseInt( coordy_gnomo[0]);
 
     return coordG;
-
 }
 
 class Neighbor {
-    constructor(coordenadas){
+    constructor(x){
 
         this.ctx = canvas.getContext("2d");
-        this.x= coordenadas[0];
-        this.y= coordenadas[1];
+        this.x= x[0];
+        this.y= x[1];
         this.width= 75;
         this.height= 75;
         this.image= new Image();
@@ -188,31 +187,59 @@ class Kaboom {
 
 
 function colisiones () {
-    console.log('chancla y',Math.trunc (chancla.y));
-    console.log('gnomoss y',gnomoss.y+gnomoss.height);
+    // console.log('chancla y',Math.trunc (chancla.y));
+    // console.log('gnomoss y',gnomoss.y+gnomoss.height);
+    // console.log('chancla x',Math.trunc (chancla.x));
+    // console.log('gnomoss x',gnomoss.x+gnomoss.width);
+    if (
+        gnomoss.x < chancla.x + chancla.width && gnomoss.x + gnomoss.width > chancla.x &&
+        gnomoss.y< chancla.y + chancla.height && gnomoss.y + gnomoss.height > chancla.y
+    )
+    {
+    console.log('choco');
+        x=true;
+        clearInterval(interval);
+        fondo.ctx.font= '50px Avenir';
+        fondo.ctx.fillText('Gano Vecina',210, 180);
+        //console.log("gonomo x",gnomoss.x,"gonomo y",gnomoss.y,)
+        ouch.play();
+        sexplosion.play();
+        explosion.draw((gnomoss.x-300 ),(gnomoss.y-150 ));
 
-    console.log('chancla x',Math.trunc (chancla.x));
-    console.log('gnomoss x',gnomoss.x+gnomoss.width);
-        if (
-            gnomoss.x < chancla.x + chancla.width && gnomoss.x + gnomoss.width > chancla.x &&
-            gnomoss.y< chancla.y + chancla.height && gnomoss.y + gnomoss.height > chancla.y
-        )
-        {
-        console.log('choco');
-            x=true;
-            clearInterval(interval);
-            fondo.ctx.font= '50px Avenir';
-            fondo.ctx.fillText('Gano Vecina',210, 180);
-			console.log("gonomo x",gnomoss.x,"gonomo y",gnomoss.y,)
-			ouch.play();
-			sexplosion.play();
-			explosion.draw((gnomoss.x-300 ),(gnomoss.y-150 ));
-			
-            return x;
-        }
+        return x;
+    }
+
+
+
 
 }
 
+function colisionesV () {
+    // console.log('chancla y',Math.trunc (chancla.y));
+    // console.log('gnomoss y',gnomoss.y+gnomoss.height);
+    // console.log('chancla x',Math.trunc (chancla.x));
+    // console.log('gnomoss x',gnomoss.x+gnomoss.width);
+    if( vecina.x < cubeta.x + cubeta.width && vecina.x + vecina.width > cubeta.x &&
+        vecina.y< cubeta.y + cubeta.height && vecina.y + vecina.height > cubeta.y
+    )
+    {
+        console.log('choco');
+        x=true;
+        clearInterval(interval);
+        fondo.ctx.font= '50px Avenir';
+        fondo.ctx.fillText('Gano Vecina',210, 180);
+        //console.log("gonomo x",gnomoss.x,"gonomo y",gnomoss.y,)
+        ouch.play();
+        sexplosion.play();
+        explosion.draw((vecina.x-300 ),(vecina.y-150 ));
+
+        return x;
+    }
+
+
+
+
+}
 
 
 function make_neighbord(){
@@ -263,38 +290,61 @@ function make_building(){
     // console.log('entro a generar edificios al azar' );
 }
 
-// console.log('tipo_edi',tipo_edi);
+butReinicia.onclick = function() {
+    console.log('q trae canvas',canvas.ctx);
+    location.reload();
+    console.log('entor a reincia ');
+    start();
+};
+
+$('#btn-shoot').on('click',function(e){
+    e.preventDefault();
+
+    if($("#gnomo").hasClass('show')){
+        $("#gnomo").hide();
+        $("#vecina").show();
+        console.log('entro if gnomo ');
+    } else {
+
+        $("#vecina").hide();
+        $("#gnomo").show();
+        console.log("entro a else vecina");
+    }
+});
+
     butDispara.onclick = function() {
 		kame.play();
         an_gno=parseInt(angle_gnome.value);
         vel_gno=parseInt(velocity_gnomo.value);
         an_vec=parseInt(angle_neighbord.value);
         vel_vec=parseInt(velocity_neighbord.value);
-		
-     //   console.log('angulo', an_gno);
 
-        if(interval!==undefined) {
-            console.log('emtor if udnefiend',interval);
             interval = setInterval(aplicarFuerza, 1000 / 60);
-        }
+
+
     };
     function aplicarFuerza(){
 
          ctx = canvas.getContext("2d");
         // ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-        if(x===false){
+        if(turno===0){
+           // console.log('entrop al turno 1');
             fondo.draw();
             drawBuildings();
             vecina.draw();
             gnomoss.draw();
+            cubeta.draw();
             puntoImpacto(an_vec,vel_vec);
         }
         else{
-            console.log('else feooooo');
+
             fondo.draw();
             drawBuildings();
             vecina.draw();
+            gnomoss.draw();
+            cubeta.draw();
+            puntoImpactoV(an_gno,vel_gno);
         }
         // fondo.draw();
         // drawBuildings();
@@ -308,10 +358,10 @@ function make_building(){
     }
 function changeturn() {
     console.log('entro a cambiar turno', fondo);
-
     clearInterval(interval);
     fondo.ctx.font= '30px Avenir';
     fondo.ctx.fillText('Le toca a tu oponente',210, 180);
+    turno=1;
 
 }
     function puntoImpacto(angulo,velocidad) {
@@ -338,6 +388,39 @@ function changeturn() {
         console.log('entro al if');
         console.log('cha y',chancla.y);
         console.log('cha x',chancla.x);
+        console.log('fon x',fondo.width);
+        console.log('fond y',fondo.height);
+        console.log('entro al if');
+        changeturn();
+
+
+    }
+}
+
+function puntoImpactoV(angulo,velocidad) {
+    // console.log('angulo',angulo);
+    // console.log('velocidad',velocidad);
+
+    var radianes = (angulo* Math.PI )/ 180;
+    // console.log('radianes',radianes);
+
+    cubeta.vx =  ((velocidad * Math.cos(radianes))/15)*-1 ;
+    cubeta.vy =   ((velocidad * Math.sin(radianes) - ((1 / 2 * gravedad)))/100)  ;
+
+    cubeta.x += cubeta.vx;
+    cubeta.y -= (cubeta.vy);
+
+    cubeta.drawfin(cubeta.vx, cubeta.vy);
+
+    // console.log('cubeta.vx', cubeta.x);
+    // console.log('cubeta.vy', cubeta.y);
+    colisionesV();
+
+    if(cubeta.x<-100||cubeta.y>fondo.height){
+
+        console.log('entro al if');
+        console.log('cha y',cubeta.y);
+        console.log('cha x',cubeta.x);
         console.log('fon x',fondo.width);
         console.log('fond y',fondo.height);
         console.log('entro al if');
@@ -397,22 +480,62 @@ function make_stage(){
     }
 }
 
+class Cube {
+    constructor(x,y){
+        this.ctx = canvas.getContext("2d");
+        this.x= x-50;
+        this.y= y+10;
+        this.vx= x+55;
+        this.vy= y;
+        this.width= 55;
+        this.height= 90;
+        this.image= new Image();
+    }
+    draw(){
+        // console.log('emtro al draw chancla' );
+        var img = new Image();
+        img.onload = () => {
+            this.ctx.drawImage(img,this.x,this.y,this.width,this.height);
+        };
+        img.src = './img/characters/cubeta.png'
+    }
+
+    drawfin(x,y){
+        var img = new Image();
+        // console.log('pos inicial','equis',x,'yes',y);
+        // console.log('pos sumada','equis',this.x+x,'yes',this.y+y);
+        var posfinx=this.x+x;
+        var posfiny=this.y+y;
+        // console.log('posfin y',posfiny);
+        // console.log('posfin x',posfinx);
+
+        img.onload = () => {
+            this.ctx.drawImage(img,posfinx,posfiny,this.width,this.height);
+        };
+        img.src = './img/characters/cubeta.png'
+    }
+}
+
 //Creacion de objetos
 var fondo=new Background();
 var vecina=new Neighbor(make_neighbord());
 var gnomoss=new Gnomo(make_gnomo());
 var chancla=new Chancla(vecina.x,vecina.y);
+var cubeta=new Cube(gnomoss.x,gnomoss.y);
 var explosion=new Kaboom();
 
 // console.log('vecina', vecina.x);
 
+function start(){
+    fondo.clean();
+    fondo.draw();
+    make_stage();
+    vecina.draw();
+    gnomoss.draw();
+    chancla.draw();
+    cubeta.draw();
 
-fondo.clean();
-fondo.draw();
-make_stage();
-gnomoss.draw();
-vecina.draw();
-chancla.draw();
-completedMusic.play();
+    completedMusic.play();
 
-
+}
+start();
