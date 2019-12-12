@@ -1,150 +1,156 @@
 /* Main Styles */
-*{
-    font-family: "Roboto";
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
+* {
+	font-family: "Roboto";
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
 }
 
-.oponentes{
-    background-color: rgba(229, 233, 255, 0.5);
-    font-weight: 700;
-    font-size: 3rem;
-    color: #fff;
-    text-shadow: -4px 3px 0 #000000;
+.oponentes {
+	background-color: rgba(229, 233, 255, 0.5);
+	font-weight: 700;
+	font-size: 3rem;
+	color: #fff;
+	text-shadow: -4px 3px 0 #000000;
 }
 
-.titulo{
-    background-color: rgba(22,22,22,0.5);
-    color: white;
-    font-size: 4rem;
-}
-.modal{
-
+.titulo {
+	text-align: center;
+	font-size: 3rem;
+	color: tomato;
+	font-size: 4rem;
 }
 
 .modal-lg {
-    width: 80% !important;
-    height: 100% !important;
+	width: 80% !important;
+	height: 100% !important;
 }
 
-.modal-content{
-
-    background-image: url("../img/fondos/versus-01.png");
-    /*background-attachment: fixed;*/
-    /*background-origin: inherit;*/
-    width: 100% !important;
-    height: 80% !important;
+.modal-body {
+	background-color: tomato;
+	background-image: url("../img/fondos/versus-01.png");
+	/*background-attachment: fixed;*/
+	/*background-origin: inherit;*/
+	width: 100% !important;
+	height: 80% !important;
 }
 
 body {
-    background-color: yellow;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: Roboto;
-}
-
-#canvas{
-    background-color: red;
-    /*margin: 100px auto;*/
-}
-
-#contenedor {
-    width: 1300px;
-    height: 650px;
-    margin: 100px 100px;
-    position: relative;
-    border-radius: 10px;
-    background: yellow;
-}
-
-.players{
-    background-color: gray;
-    position: absolute;
-    padding: 20px;
-    width: 830px;
-
-    font-weight: bold;
-    font-size: 16px;
-    color: black;
-}
-
-#vecina {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 50%;
-    color: blue;
-    background-color: #009EA9;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 10px 0 #eee;
-    text-align: left;
-    width: 300px;
-}
-
-#gnomo {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-right: 50%;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 10px 0 #eee;
-    background-color: #F8A602;
-    text-align: right;
-    float: right;
-    width: 300px;
-}
-
-input {
-    background: white;
-    width: 80px;
-    border:ridge;
-    color: #2c2c2c;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Roboto;
 }
 
 #canvas {
-    width: 100vw;
-    height: 100vh;
-    margin: 0 auto;
-    border: 5px solid #000;
-    border-radius: 15px;
+	background-color: red;
+	/*margin: 100px auto;*/
+}
+
+#contenedor {
+	width: 1300px;
+	height: 650px;
+	margin: 100px 100px;
+	position: relative;
+	border-radius: 10px;
+	background: yellow;
+}
+
+.players {
+	background-color: gray;
+	position: absolute;
+	padding: 20px;
+	width: 830px;
+
+	font-weight: bold;
+	font-size: 16px;
+	color: black;
+}
+
+#vecina {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 50%;
+	color: blue;
+	background-color: #2c5bb5;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 10px 0 #eee;
+	text-align: left;
+	width: 300px;
+}
+
+.controls {
+	/* background-color: goldenrod; */
+	margin-top: 10%;
+}
+
+.audio {
+	display: none;
+}
+
+#gnomo {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-right: 50%;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 10px 0 #eee;
+	background-color: #f8a602;
+	text-align: right;
+	float: right;
+	width: 300px;
+}
+
+input {
+	background: white;
+	width: 80px;
+	border: ridge;
+	color: #2c2c2c;
+}
+
+#canvas {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	border: 5px solid #000;
+	border-radius: 15px;
 }
 
 .slidecontainer {
-    width: 60%;
+	width: 60%;
 }
 
 .slider {
-    -webkit-appearance: none;
-    width: 100%;
-    height: 15px;
-    border-radius: 5px;
-    background: #fff;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
+	-webkit-appearance: none;
+	width: 100%;
+	height: 15px;
+	border-radius: 5px;
+	background: #fff;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: 0.2s;
+	transition: opacity 0.2s;
 }
 
 .slider:hover {
-    opacity: 1;
+	opacity: 1;
 }
 
 .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #000000;
-    cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #000000;
+	cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #fff;
-    cursor: pointer;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #fff;
+	cursor: pointer;
 }
