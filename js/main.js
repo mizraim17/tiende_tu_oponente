@@ -6,7 +6,7 @@ var time = d.getHours();
 var day = [
 	"./img/fondos/amanecer.png",
 	"./img/fondos/atardecer.png",
-	"./img/fondos/noche.jpg"
+	"./img/fondos/noche.jpg",
 ];
 var tipo_edificios = [
 	"./img/edificios/edifi (1).png",
@@ -14,7 +14,7 @@ var tipo_edificios = [
 	"./img/edificios/edifi (3).png",
 	"./img/edificios/edifi (4).png",
 	"./img/edificios/edifi (5).png",
-	"./img/edificios/edifi (6).png"
+	"./img/edificios/edifi (6).png",
 	// "./img/edificios/edifi (7).png"
 ];
 var tiempo = "",
@@ -315,14 +315,14 @@ function make_building() {
 	);
 }
 
-butReinicia.onclick = function() {
+butReinicia.onclick = function () {
 	console.log("q trae canvas", canvas.ctx);
 	location.reload();
 	console.log("entor a reincia ");
 	start();
 };
 
-$("#btn-shoot").on("click", function(e) {
+$("#btn-shoot").on("click", function (e) {
 	e.preventDefault();
 
 	if ($("#gnomo").hasClass("show")) {
@@ -336,7 +336,7 @@ $("#btn-shoot").on("click", function(e) {
 	}
 });
 
-butDispara.onclick = function() {
+butDispara.onclick = function () {
 	kame.play();
 	an_gno = parseInt(angle_gnome.value);
 	vel_gno = parseInt(velocity_gnomo.value);
@@ -344,6 +344,8 @@ butDispara.onclick = function() {
 	vel_vec = parseInt(velocity_neighbord.value);
 
 	interval = setInterval(aplicarFuerza, 1000 / 60);
+
+	console.log("interval", interval);
 };
 function aplicarFuerza() {
 	ctx = canvas.getContext("2d");
@@ -398,9 +400,9 @@ function puntoImpacto(angulo, velocidad) {
 
 	chancla.drawfin(chancla.vx, chancla.vy);
 
-	// console.log("chancla.vx", chancla.x);
-	// console.log("chancla.vy--->", chancla.y);
-	// console.log("fondo.width--->", fondo.height);
+	console.log("chancla.vx", chancla.x);
+	console.log("chancla.vy--->", chancla.y);
+	console.log("fondo.width--->", fondo.width);
 
 	colisiones();
 
@@ -431,16 +433,16 @@ function puntoImpactoV(angulo, velocidad) {
 	cubeta.drawfin(cubeta.vx, cubeta.vy);
 
 	// console.log('cubeta.vx', cubeta.x);
-	console.log("cubeta--->", cubeta.y);
+	console.log("cubetayyyy--->", cubeta.y);
 	console.log("cubetaxxxxxxx>", cubeta.x);
 	console.log("fondo.width--->", fondo.width);
 
 	colisionesV();
 
-	if (cubeta.x < fondo.width || cubeta.y < -95) {
+	if (cubeta.x * -1 > 55 || cubeta.y < -95) {
 		console.log("entro al if");
-		console.log("cha y", cubeta.y);
-		console.log("cha x", cubeta.x);
+		console.log("cub y", cubeta.y);
+		console.log("cub x", cubeta.x);
 		console.log("fon x", fondo.width);
 		console.log("fond y", fondo.height);
 		console.log("entro al if");
@@ -560,7 +562,7 @@ function start() {
 	chancla.draw();
 	cubeta.draw();
 
-	document.getElementById("iniciar").onclick = function() {
+	document.getElementById("iniciar").onclick = function () {
 		let music_background = document.getElementById("audioIntro");
 		music_background.play();
 	};
